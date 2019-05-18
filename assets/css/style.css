@@ -49,6 +49,7 @@ h3 {
 .space{
     line-height: 30px;
     height: 40px;
+    display: flex;
 }
 
 .links{
@@ -57,6 +58,14 @@ h3 {
     padding: 0;
     text-decoration: none;
     display: inline-block;
+}
+.img-podcast{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 2px #cccccc;
 }
 /*Contact Me*/
 .contact-me{
