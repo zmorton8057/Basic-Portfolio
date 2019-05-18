@@ -10,6 +10,7 @@ body{
     height: 100%;
     color: #777777;
     background-image: url("../images/topography.png");
+    font-size: 15px;
 }
 .full{
     max-width: 960px;
@@ -45,7 +46,18 @@ h3 {
     margin-left: 14%;
     box-shadow: #cccccc;
 }
+.space{
+    line-height: 30px;
+    height: 40px;
+}
 
+.links{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+}
 /*Contact Me*/
 .contact-me{
     max-width: 960px;
@@ -63,7 +75,6 @@ h3 {
 
 .form-contact {
     padding-left: 60px;
-    
 }
 
 .first-name {
@@ -184,7 +195,7 @@ figure{
 a {
     text-decoration: none;
     color: #4AAAA5;
-    display: block;
+    display: inline-block;
     background-color: white;
     padding: 20px;
 }
@@ -192,6 +203,7 @@ a:hover {
     color: black;
     display: block;
     background-color: grey;
+    display: inline-block;
 }
 
 .header {
