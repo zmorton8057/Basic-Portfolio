@@ -42,9 +42,10 @@ h3 {
 }
 
 .about-pic{
-    display: absolute;
-    margin-left: 14%;
-    box-shadow: #cccccc;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border:solid 2px #cccccc;
+    float: right;
 }
 .space{
     line-height: 30px;
